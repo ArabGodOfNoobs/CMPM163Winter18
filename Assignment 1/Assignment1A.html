@@ -16,7 +16,6 @@
 <div id="container"></div>
 
     <script src="../js/three.js"></script>
-	<script src="Pokeball.png"></script>
     <script id="vertexShader" type="x-shader/x-vertex">
 
 	//Three.js gives us these automatically when a perspective camera is bound to the renderer
@@ -490,7 +489,7 @@
 					light3_pos: { type: "v3", value: light3_pos },
             		light3_diffuse: { type: "v3", value: light3_diffuse },
             		light3_specular:  { type: "v3", value: light3_specular },
-					myTexture: { type: "t", value: new THREE.TextureLoader().load('Pokeball.png') },
+					myTexture: { type: "t", value: new THREE.TextureLoader().load('Pokeball.PNG') },
 		};
 		
 		var uniforms3 =  {
